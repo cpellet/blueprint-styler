@@ -10,8 +10,8 @@
   - remove high-contrast theme - also a theme like any other
 - Tokens
   - use design tokens
-  - fix tokens so they are more conventional 
-    - colors: 10–90, black is 0, 100 is white 
+  - fix tokens so they are more conventional
+    - colors: 10–90, black is 0, 100 is white
     - js generator of color vars - [hsluv](https://www.hsluv.org/)!
     - better semantically named colors
 - Theme creator app tool
@@ -89,6 +89,8 @@
   - [Colors](https://developer.microsoft.com/en-us/fluentui#/styles/web/colors/shared)
   - BUG: single icon button should not be blue?
   - BUG: default primary blue is wrong: https://developer.microsoft.com/en-us/fluentui#/controls/web/button
+  - BUG: text color in button:hover is wrong color
+  - BUG: fluent Segoe UI font maybe doesn't work right (on mac, windows has a default)?
   - slider style
   - dark theme
 - [PNNL v2](https://forge.pnl.gov/standards/) & [PNNL v3](https://forgedev.pnnl.gov/prc3/)
