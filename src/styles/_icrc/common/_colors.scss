@@ -1,0 +1,50 @@
+@import "../../global/common-colors-grayscale-mono";
+
+#{$root-selector} {
+  /*! ICRC Colors */
+  --icrc-red-hsl: 359, 86%, 53%;
+  --icrc-black-hsl: 0, 0%, 0%;
+  --icrc-gray-dark-hsl: 0, 0%, 20%;
+  --icrc-gray-light-hsl: 0, 0%, 96%;
+
+  --red-hue: 359;
+  --red1-hsl: 359, 80%, 26%;
+  --red2-hsl: 359, 84%, 35%;
+  --red3-hsl: 359, 86%, 53%;
+  --red4-hsl: 359, 89%, 61%;
+  --red5-hsl: 359, 90%, 70%;
+  --red6-hsl: 359, 92%, 81%;
+
+  // Keep accent family aligned to ICRC red.
+  --cerulean-hue: 359;
+  --cerulean1-hsl: var(--red1-hsl);
+  --cerulean2-hsl: var(--red2-hsl);
+  --cerulean3-hsl: var(--red3-hsl);
+  --cerulean4-hsl: var(--red4-hsl);
+  --cerulean5-hsl: var(--red5-hsl);
+  --cerulean6-hsl: var(--red6-hsl);
+
+  --orange-hue: 20;
+  --orange1-hsl: 20, 65%, 27%;
+  --orange2-hsl: 19, 72%, 35%;
+  --orange3-hsl: 19, 78%, 43%;
+  --orange4-hsl: 19, 84%, 52%;
+  --orange5-hsl: 19, 88%, 62%;
+  --orange6-hsl: 19, 90%, 76%;
+
+  --green-hue: 142;
+  --green1-hsl: 142, 54%, 23%;
+  --green2-hsl: 142, 55%, 30%;
+  --green3-hsl: 142, 58%, 37%;
+  --green4-hsl: 142, 59%, 45%;
+  --green5-hsl: 142, 60%, 57%;
+  --green6-hsl: 142, 61%, 70%;
+
+  --gold-hue: 44;
+  --gold1-hsl: 44, 84%, 26%;
+  --gold2-hsl: 44, 88%, 34%;
+  --gold3-hsl: 44, 91%, 43%;
+  --gold4-hsl: 44, 94%, 51%;
+  --gold5-hsl: 44, 96%, 62%;
+  --gold6-hsl: 44, 98%, 74%;
+}

@@ -80,7 +80,6 @@
     "gulp-sass": "^5.1.0",
     "lodash-es": "^4.17.21",
     "moment": "^2.29.4",
-    "node-sass": "^8.0.0",
     "node-sass-tilde-importer": "^1.0.2",
     "postcss": "^8.4.21",
     "postcss-combine-duplicated-selectors": "^10.0.3",
@@ -111,5 +110,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "dependencies": {
+    "sass": "^1.100.0"
   }
 }

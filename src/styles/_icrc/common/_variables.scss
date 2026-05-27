@@ -1,0 +1,20 @@
+#{$root-selector} {
+  --pt-font-family-sans:
+    Arial,
+    "Helvetica Neue",
+    Helvetica,
+    "Segoe UI",
+    "Roboto",
+    "Open Sans",
+    "Icons16",
+    sans-serif;
+
+  --pt-font-family-monospace:
+    Consolas,
+    Menlo,
+    Monaco,
+    monospace;
+
+  --pt-border-radius: 2px;
+  --pt-grid-size: 10px;
+}

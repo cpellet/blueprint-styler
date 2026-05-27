@@ -372,7 +372,7 @@
 }
 
 :root .bp5-progress-bar .bp5-progress-meter {
-    background-image: linear-gradient(-90deg,rgba(255,255,255,.15),rgba(255,255,255,0) 50%,rgba(255,255,255,.15));
+    background-image: linear-gradient(-90deg,hsla(0,0%,100%,.15),hsla(0,0%,100%,0) 50%,hsla(0,0%,100%,.15));
     border-radius: unset
 }
 
@@ -449,7 +449,6 @@
 
 :root .bp5-slider-handle {
     background-color: var(--pt-intent-primary);
-    border-radius: 99px;
     box-shadow: none
 }
 
@@ -461,6 +460,10 @@
 :root .bp5-slider-handle.bp5-active,:root .bp5-slider-handle:active {
     background-color: var(--pt-intent-primary-active);
     box-shadow: none
+}
+
+:root .bp5-slider-handle {
+    border-radius: 99px
 }
 
 :root .bp5-slider-handle.bp5-end.bp5-end,:root .bp5-slider-handle.bp5-start.bp5-start {

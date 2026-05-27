@@ -1,12 +1,23 @@
 const gulp = require('gulp')
+const path = require('path')
 
-const sass = require('gulp-sass')(require('node-sass'))
+const makeSassCompiler = () => {
+    try {
+        return require('node-sass')
+    } catch (error) {
+        return require('sass')
+    }
+}
+const sassCompiler = makeSassCompiler();
+const sass = require('gulp-sass')(sassCompiler)
+const tildeImporter = (url) => {
+    if (!url.startsWith('~')) return null;
+    return { file: path.join('node_modules', url.substring(1)) };
+}
 const sassConfig = {
     includePaths: ['node_modules'],
     // functions: require('./scripts/sass-custom-functions'), // svg-icon()
-    importer: [
-        require('node-sass-tilde-importer')
-    ],
+    importer: [tildeImporter],
     // outputStyle: 'compressed',
 }
 
