@@ -109,7 +109,7 @@
 	--sepia5-hsl: 25,35%,64%;
 
 	/*! Variables */
-	--pt-font-family-sans: "Segoe UI",-apple-system,"BlinkMacSystemFont","Roboto","Open Sans","Helvetica Neue","Icons16",sans-serif;
+	--pt-font-family-sans: "Segoe UI","Segoe Pro",-apple-system,"BlinkMacSystemFont","Roboto","Open Sans","Helvetica Neue","Icons16",sans-serif;
 	--pt-font-family-monospace: Monaco,Menlo,Consolas,"Droid Sans Mono",Inconsolata,"Courier New",monospace;
 	--pt-border-radius: 2px;
 	--pt-drop-shadow-opacity: 0.11;

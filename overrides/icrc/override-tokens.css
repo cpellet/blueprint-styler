@@ -1,0 +1,94 @@
+.bp5-vars, :root {
+
+	/*! ColorsHsl */
+	--black-hsl: 0,0%,8%;
+	--dark-gray1-hsl: 0,0%,10%;
+	--dark-gray2-hsl: 0,0%,17%;
+	--dark-gray3-hsl: 0,0%,21%;
+	--dark-gray4-hsl: 0,0%,25%;
+	--dark-gray5-hsl: 0,0%,29%;
+	--gray1-hsl: 0,0%,44%;
+	--gray2-hsl: 0,0%,51%;
+	--gray3-hsl: 0,0%,60%;
+	--gray4-hsl: 0,0%,70%;
+	--gray5-hsl: 0,0%,79%;
+	--light-gray1-hsl: 0,0%,84%;
+	--light-gray2-hsl: 0,0%,87%;
+	--light-gray3-hsl: 0,0%,91%;
+	--light-gray4-hsl: 0,0%,94%;
+	--light-gray5-hsl: 0,0%,97%;
+	--white-hsl: 0,0%,100%;
+
+	/*! ICRC */
+	--icrc-red-hsl: 359,86%,53%;
+	--icrc-black-hsl: 0,0%,0%;
+	--icrc-gray-light-hsl: 0,0%,96%;
+	--red-hue: 359;
+	--red1-hsl: 359,80%,26%;
+	--red2-hsl: 359,84%,35%;
+	--red3-hsl: 359,86%,53%;
+	--red4-hsl: 359,89%,61%;
+	--red5-hsl: 359,90%,70%;
+	--red6-hsl: 359,92%,81%;
+	--cerulean-hue: 359;
+	--cerulean1-hsl: var(--red1-hsl);
+	--cerulean2-hsl: var(--red2-hsl);
+	--cerulean3-hsl: var(--red3-hsl);
+	--cerulean4-hsl: var(--red4-hsl);
+	--cerulean5-hsl: var(--red5-hsl);
+	--cerulean6-hsl: var(--red6-hsl);
+	--orange-hue: 20;
+	--orange1-hsl: 20,65%,27%;
+	--orange2-hsl: 19,72%,35%;
+	--orange3-hsl: 19,78%,43%;
+	--orange4-hsl: 19,84%,52%;
+	--orange5-hsl: 19,88%,62%;
+	--orange6-hsl: 19,90%,76%;
+	--green-hue: 142;
+	--green1-hsl: 142,54%,23%;
+	--green2-hsl: 142,55%,30%;
+	--green3-hsl: 142,58%,37%;
+	--green4-hsl: 142,59%,45%;
+	--green5-hsl: 142,60%,57%;
+	--green6-hsl: 142,61%,70%;
+	--gold-hue: 44;
+	--gold1-hsl: 44,84%,26%;
+	--gold2-hsl: 44,88%,34%;
+	--gold3-hsl: 44,91%,43%;
+	--gold4-hsl: 44,94%,51%;
+	--gold5-hsl: 44,96%,62%;
+	--gold6-hsl: 44,98%,74%;
+	--primary1-hsl: var(--red1-hsl);
+	--primary2-hsl: var(--red2-hsl);
+	--primary3-hsl: var(--red3-hsl);
+	--primary4-hsl: var(--red4-hsl);
+	--primary5-hsl: var(--red5-hsl);
+	--primary6-hsl: var(--red6-hsl);
+	--warning1-hsl: var(--gold1-hsl);
+	--warning2-hsl: var(--gold2-hsl);
+	--warning3-hsl: var(--gold3-hsl);
+	--warning4-hsl: var(--gold4-hsl);
+	--warning5-hsl: var(--gold5-hsl);
+	--warning6-hsl: var(--gold6-hsl);
+	--pt-text-color: hsl(var(--icrc-black-hsl));
+	--pt-heading-color: hsl(var(--icrc-black-hsl));
+	--pt-link-color: hsl(var(--red3-hsl));
+	--pt-text-selection-color: hsla(var(--red4-hsl),0.35);
+	--pt-font-family-sans: Arial,"Helvetica Neue",Helvetica,"Segoe UI","Roboto","Open Sans","Icons16",sans-serif;
+	--pt-font-family-monospace: Consolas,Menlo,Monaco,monospace;
+	--pt-border-radius: 2px;
+	--pt-grid-size: 10px;
+}
+
+
+.bp5-dark {
+
+	/*! ColorsHsl */
+
+	/*! ICRC */
+	--icrc-gray-hsl: 0,0%,20%;
+	--pt-text-color: var(--light-gray5);
+	--pt-text-color-muted: var(--gray4);
+	--pt-heading-color: var(--white);
+	--pt-link-color: hsl(var(--red5-hsl));
+}

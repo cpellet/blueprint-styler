@@ -1,11 +1,14 @@
 :root .bp5-button {
-    position: relative;
     transition: .2s linear;
     transition-property: background-color,color,opacity,box-shadow,border-color
 }
 
 :root .bp5-button:active {
     transition-duration: 50ms
+}
+
+:root .bp5-button {
+    position: relative
 }
 
 :root .bp5-button:after {
@@ -51,13 +54,16 @@
 }
 
 :root a.bp5-button {
-    position: relative;
     transition: .2s linear;
     transition-property: background-color,color,opacity,box-shadow,border-color
 }
 
 :root a.bp5-button:active {
     transition-duration: 50ms
+}
+
+:root a.bp5-button {
+    position: relative
 }
 
 :root a.bp5-button:after {
@@ -147,13 +153,16 @@
 }
 
 :root .bp5-html-select select,:root .bp5-select select {
-    position: relative;
     transition: .2s linear;
     transition-property: background-color,color,opacity,box-shadow,border-color
 }
 
 :root .bp5-html-select select:active,:root .bp5-select select:active {
     transition-duration: 50ms
+}
+
+:root .bp5-html-select select,:root .bp5-select select {
+    position: relative
 }
 
 :root .bp5-html-select select:after,:root .bp5-select select:after {
@@ -259,9 +268,7 @@
 }
 
 :root .bp5-control-indicator {
-    position: relative;
-    transition: .2s linear;
-    transition-property: background-color,color,opacity,box-shadow
+    position: relative
 }
 
 :root .bp5-control-indicator:after {
@@ -290,6 +297,11 @@
     content: unset
 }
 
+:root .bp5-control-indicator {
+    transition: .2s linear;
+    transition-property: background-color,color,opacity,box-shadow
+}
+
 .bp5-control input:not(:disabled):hover~:root .bp5-control-indicator {
     box-shadow: var(--button-box-shadow-hover)
 }
@@ -299,12 +311,7 @@
 }
 
 :root .bp5-slider-handle {
-    background-color: var(--slider-background-color);
-    border-radius: 99px;
-    position: relative;
-    position: absolute;
-    transition: .2s linear;
-    transition-property: background-color,color,opacity,box-shadow
+    position: relative
 }
 
 :root .bp5-slider-handle:after {
@@ -333,12 +340,22 @@
     content: unset
 }
 
-:root .bp5-slider-handle:hover {
+:root .bp5-slider-handle {
+    position: absolute;
+    transition: .2s linear;
+    transition-property: background-color,color,opacity,box-shadow
+}
+
+:root .bp5-slider-handle,:root .bp5-slider-handle:hover {
     background-color: var(--slider-background-color)
 }
 
 :root .bp5-slider-handle.bp5-active {
     transition-duration: 50ms
+}
+
+:root .bp5-slider-handle {
+    border-radius: 99px
 }
 
 :root .bp5-slider-handle.bp5-end.bp5-end,:root .bp5-slider-handle.bp5-start.bp5-start {
