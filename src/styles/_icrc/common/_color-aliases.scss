@@ -1,0 +1,26 @@
+#{$root-selector} {
+  --primary1-hsl: var(--red1-hsl);
+  --primary2-hsl: var(--red2-hsl);
+  --primary3-hsl: var(--red3-hsl);
+  --primary4-hsl: var(--red4-hsl);
+  --primary5-hsl: var(--red5-hsl);
+  --primary6-hsl: var(--red6-hsl);
+
+  --warning1-hsl: var(--gold1-hsl);
+  --warning2-hsl: var(--gold2-hsl);
+  --warning3-hsl: var(--gold3-hsl);
+  --warning4-hsl: var(--gold4-hsl);
+  --warning5-hsl: var(--gold5-hsl);
+  --warning6-hsl: var(--gold6-hsl);
+
+  --pt-text-color: hsl(var(--icrc-black-hsl));
+  --pt-text-color-muted: hsl(var(--icrc-gray-dark-hsl));
+  --pt-heading-color: hsl(var(--icrc-black-hsl));
+  --pt-link-color: hsl(var(--red3-hsl));
+  --pt-text-selection-color: hsla(var(--red4-hsl), 0.35);
+
+  --pt-dark-text-color: var(--light-gray5);
+  --pt-dark-text-color-muted: var(--gray4);
+  --pt-dark-heading-color: var(--white);
+  --pt-dark-link-color: hsl(var(--red5-hsl));
+}

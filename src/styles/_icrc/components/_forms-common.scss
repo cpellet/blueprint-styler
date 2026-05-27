@@ -1,0 +1,55 @@
+#{$root-selector} {
+  .#{$ns}-input,
+  .#{$ns}-input-group .#{$ns}-input,
+  .#{$ns}-html-select select,
+  .#{$ns}-select select {
+    border-radius: 2px;
+    background: #fff;
+    color: hsl(var(--icrc-black-hsl));
+    box-shadow: inset 0 0 0 1px hsla(var(--icrc-gray-dark-hsl), 0.25);
+    transition:
+      box-shadow 120ms ease,
+      background-color 120ms ease,
+      border-color 120ms ease;
+  }
+
+  .#{$ns}-input:focus,
+  .#{$ns}-input-group .#{$ns}-input:focus,
+  .#{$ns}-html-select select:focus,
+  .#{$ns}-select select:focus {
+    box-shadow:
+      inset 0 0 0 1px hsl(var(--red3-hsl)),
+      0 0 0 1px hsl(var(--red3-hsl));
+  }
+
+  .#{$ns}-checkbox .#{$ns}-control-indicator {
+    border-radius: 2px;
+  }
+
+  .#{$ns}-radio .#{$ns}-control-indicator {
+    border-radius: 999px;
+  }
+
+  .#{$ns}-switch .#{$ns}-control-indicator {
+    border-radius: 999px;
+  }
+
+  .#{$ns}-switch .#{$ns}-control-indicator::before {
+    border-radius: 999px;
+  }
+
+  &.#{$ns}-dark {
+    .#{$ns}-input,
+    .#{$ns}-input-group .#{$ns}-input,
+    .#{$ns}-html-select select,
+    .#{$ns}-select select {
+      background: var(--dark-gray4);
+      color: var(--light-gray5);
+      box-shadow: inset 0 0 0 1px hsla(var(--white-hsl), 0.16);
+    }
+
+    .#{$ns}-input::placeholder {
+      color: hsla(var(--white-hsl), 0.52);
+    }
+  }
+}
